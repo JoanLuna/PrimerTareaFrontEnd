@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/lblPrimerNumero"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="104dp"
+        android:layout_height="49dp"
         android:text="Ingrese Primer Numero"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,15 +20,15 @@
 
     <TextView
         android:id="@+id/lblSegundoNumero"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="110dp"
+        android:layout_height="63dp"
         android:text="Ingrese Segundo Numero"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.063"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.278" />
+        app:layout_constraintVertical_bias="0.279" />
 
     <EditText
         android:id="@+id/txtNum01"
@@ -58,8 +58,8 @@
 
     <Button
         android:id="@+id/btnSumar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="109dp"
+        android:layout_height="64dp"
         android:text="Sumar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,7 +71,10 @@
         android:id="@+id/lblResultado"
         android:layout_width="372dp"
         android:layout_height="72dp"
+        android:fontFamily="sans-serif"
         android:scrollbarSize="15dp"
+        android:textColor="#000000"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
